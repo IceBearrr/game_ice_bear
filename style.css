@@ -64,3 +64,8 @@
     background-size: 200px 200px;
     margin: auto;
 }
+
+body {
+background: no-repeat;
+background-position: center top;
+}
