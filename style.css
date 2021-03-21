@@ -58,14 +58,16 @@
 }
 
 .endbear {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    width:100%;
     background-image: url(pic/gameover.jpg);
-    background-size: 200px 200px;
+    background-size: 100%;
     margin: auto;
 }
 
 body {
 background: no-repeat;
 background-position: center top;
+    background-size: 100%;
 }
