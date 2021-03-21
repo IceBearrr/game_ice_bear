@@ -28,8 +28,8 @@ let isAlive = setInterval(function() {
 
     if (crabLeft < 50 && crabLeft > 0 && bearTop <= 250 ) {
         document.body.style.backgroundImage = "url('pic/gameover.jpg')";
-        life.innerHTML = "<button class='resetbtn' aria-label='Начать заново' type='button' name='resetbtn'>Начать заново</button>"
-      
+        life.innerHTML = "<div class=\"form-row text-center\">     <div class=\"col-md-12\">\n<button class='btn btn-outline-secondary resetbtn text-center' aria-label='Начать заново' type='button' name='resetbtn' style='margin-top: 23%'>Начать заново</button> </div> </div>"
+
         const btn = document.querySelector('.resetbtn');
         document.addEventListener('click', function(event) {
             location.reload();
@@ -37,3 +37,67 @@ let isAlive = setInterval(function() {
     }
 }, 10)
 
+//
+//
+//
+//
+// function sum(itog) {
+//     let n = 1;
+// console.log(itog + n);
+// }
+//
+// sum(20);
+//
+// function res(n, r) {
+//     return n + r;
+// }
+// console.log(res('hj', 'jjh'));
+//
+// let n = 50;
+// let r = 7;
+// res(n, r);
+//
+//
+// let nr = 50;
+// let rr = 7;
+// res(nr, rr);
+//
+// res(110,50);
+//
+//
+// class Sum {
+//     constructor(name1, name2) {
+//         this.name1 = name1;
+//         this.name2 = name2;
+//     }
+//
+//     sum() {
+//         this.element = this.name1 + this.name2;
+//         return this.element;
+//     }
+//     minus() {
+//         this.element = this.name1 - this.name2;
+//         return this.element;
+//     }
+//     um() {
+//         this.element = this.name1 * this.name2;
+//         return this.element;
+//     }
+//     del() {
+//         this.element = this.name1 / this.name2;
+//         return this.element;
+//     }
+// }
+//
+// const itogo = new Sum (5, 5);
+// let tkjdvb = itogo.sum();
+// console.log(tkjdvb)
+// const itogo2 = new Sum (10, 5);
+//  tkjdvb = itogo.minus();
+// console.log(tkjdvb)
+// const itogo3 = new Sum (5, 5);
+//  tkjdvb = itogo.um();
+// console.log(tkjdvb)
+// const itogo4 = new Sum (5, 5);
+//  tkjdvb = itogo.del();
+// console.log(tkjdvb)
